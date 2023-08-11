@@ -72,3 +72,12 @@ nav{
     }
     
 }
+@media screen and (max-width:400px) {
+    .nav-inferior li a{
+        font-size: 10px
+    }
+    footer div p{
+        font-size: 10px
+    }
+    
+}

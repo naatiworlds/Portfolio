@@ -13,10 +13,10 @@ function Nav(props){
                 <a href="#colaboraciones">Colaboraciones</a>
             </li>
             <li>
-                <a href="https://linktr.ee/natiworlds" target="_blank">Mis redes</a>
+                <a href="https://linktr.ee/natiworlds" target="_blank" rel="noreferrer">Mis redes</a>
             </li>
             <li>
-                <a href="https://naatii.github.io/natiworlds.com" target="_blank">Tienda</a>
+                <a href="https://naatii.github.io/natiworlds.com" target="_blank" rel="noreferrer">Tienda</a>
             </li>
         </nav>
     );

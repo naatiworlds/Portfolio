@@ -121,4 +121,10 @@ p{
     #colaboraciones .content{
         display: block;
     }
+    .card{
+        width: 90%;
+    }
+    p{
+        padding: 1em 1em;
+    }
 }

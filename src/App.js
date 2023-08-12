@@ -37,7 +37,7 @@ function App() {
         imagen={LogoCatering}
         figure="Catering de pepes"
         imagen2={Imagen}
-        figure2="Prueba"
+        figure2="Colabora para ver aquí tu logo"
       />
       <Footer/>
     </>

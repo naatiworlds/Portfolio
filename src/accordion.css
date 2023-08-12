@@ -6,13 +6,16 @@
     justify-content: center;
     width: 100%;
     gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 .accordion .item{
     border: 0;
     border-radius: 0;
     padding: 0;
     background-color: transparent;
-    width: 25em;
+    width: 45%;
 }
 .accordion .item .accordion-header{
     background-color: burlywood;
@@ -43,6 +46,15 @@
     font-size: .5em;
     font-weight: bold;
 }
+@media screen and (max-width:900px) {
+    .accordion{
+        display: block;
+    }
+    .accordion .item{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
 @media screen and (max-width:500px) {
     .accordion .item .accordion-header button{
         font-size: 10px
@@ -50,6 +62,6 @@
 }
 @media screen and (max-width:400px) {
     .accordion .item .accordion-header button{
-        font-size: 6px
+        font-size: 10px
     }
 }

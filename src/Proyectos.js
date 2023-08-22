@@ -10,7 +10,7 @@ function Proyectos(){
                 <Accordion.Item eventKey='0' className='item'>
                     <Accordion.Header><p>Tienda de ropa</p></Accordion.Header>
                     <Accordion.Body>
-                        <iframe src="https://naatii.github.io/natiworlds.com"></iframe>
+                        <iframe src="https://naatii.github.io/natiworlds.com" title='natiworlds'></iframe>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1' className='item'>

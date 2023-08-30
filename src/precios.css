@@ -1,0 +1,41 @@
+#precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.card{
+    max-height: 50em;
+}
+.card-title {
+    text-align: center;
+}
+.card-text{
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+}
+.card-text li{
+    width: 100%;
+    text-align: left;
+    letter-spacing: .2em;
+    list-style: "⮞ ";
+}
+button{
+    margin: 4.5em auto;
+    width: 100%;
+}
+button a{
+    color: white;
+}
+@media screen and (max-width:1300px) {
+    .card-text{
+        font-size: 1rem
+    }
+}
+@media screen and (max-width:580px) {
+    .card{
+        margin: 0 auto;
+    }
+}

@@ -117,7 +117,7 @@ p{
         display: block;
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:580px) {
     #colaboraciones .content{
         display: block;
     }
@@ -126,5 +126,6 @@ p{
     }
     p{
         padding: 1em 1em;
+        font-size: 1em;
     }
 }

@@ -5,8 +5,9 @@ import LogoCatering from './assets/logoCatering.png'
 import Card from './Card'
 import Footer from './Footer';
 import Proyectos from './Proyectos';
-import './App.css'
-import './SobreMi.css'
+import Precios from './precios';
+import './App.css';
+import './SobreMi.css';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       titulo="Natiworlds.com"/>
       <Proyectos/>
       <hr></hr>
+      <Precios></Precios>
+      <hr></hr>
+
       <Card 
         id="sobreMi" 
         titulo="Sobre Mí" 

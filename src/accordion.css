@@ -49,8 +49,8 @@
 .accordion .item .accordion-body{
     padding: .5rem;
     display: flex;
-    flex-direction: column;
     place-items: center;
+    flex-direction: column;
 }
 .accordion .item img{
     height: fit-content;

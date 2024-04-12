@@ -13,9 +13,7 @@ import './SobreMi.css';
 function App() {
   return(
     <>
-      <Header 
-      id="header" 
-      titulo="Natiworlds.com"/>
+      <Header/>
       <Proyectos/>
       <hr></hr>
       <Precios></Precios>

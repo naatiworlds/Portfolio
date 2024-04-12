@@ -24,7 +24,7 @@ function Proyectos(){
                 <Accordion.Item eventKey='2' className='item'>
                     <Accordion.Header><p>Catering de pepes</p></Accordion.Header>
                     <Accordion.Body>
-                        <iframe src='https://cateringdepepes.com' title='catering'></iframe>
+                        <iframe src='https://cateringdcortes.netlify.app/' title='catering'></iframe>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3' className='item'>

@@ -16,7 +16,7 @@ function Nav(props){
                 <a href="https://linktr.ee/natiworlds" target="_blank" rel="noreferrer">Mis redes</a>
             </li>
             <li>
-                <a href="https://wirful.netlify.app/" target="_blank" rel="noreferrer">Tienda</a>
+                <a href="https://tienda.natiworlds.com/" target="_blank" rel="noreferrer">Tienda</a>
             </li>
         </nav>
     );

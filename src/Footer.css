@@ -34,7 +34,7 @@ nav{
     align-content: center;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 40em;
 }
 
 
@@ -43,41 +43,47 @@ nav{
 }
 
 
+@media screen and (max-width:1250px) {
+    footer{
+        height: 200px;
+    }
+    .nav-inferior{
+        display: block;
+    }
+    
+}
 @media screen and (max-width:1150px) {
     .nav-inferior li a{
-        font-size: 15px
+        font-size: 18px
     }
     footer div p{
-        font-size: 15px
+        font-size: 18px
     }
 }
 @media screen and (max-width:840px) {
-    footer{
-        height: 65px;
-        display: block;
-    }
+    
     .nav-inferior li a{
-        font-size: 15px
+        font-size: 18px
     }
     footer div p{
-        font-size: 15px
+        font-size: 18px
     }
 }
 @media screen and (max-width:500px) {
     .nav-inferior li a{
-        font-size: 13px
+        font-size: 18px
     }
     footer div p{
-        font-size: 13px
+        font-size: 18px
     }
     
 }
 @media screen and (max-width:400px) {
     .nav-inferior li a{
-        font-size: 10px
+        font-size: 15px
     }
     footer div p{
-        font-size: 10px
+        font-size: 15px
     }
     
 }
